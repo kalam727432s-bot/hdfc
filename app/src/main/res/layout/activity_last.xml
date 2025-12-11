@@ -1,0 +1,69 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceff8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#eceff8">
+
+        <View android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:paddingVertical="15dp"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/top_curve"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:src="@drawable/logo_"
+                android:contentDescription="MyCards logo"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_marginTop="35dp"
+            android:id="@+id/loadingSpinner"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_marginBottom="30dp"
+            android:indeterminateTint="@color/primary1"
+            android:indeterminateTintMode="src_in"/>
+
+        <!-- Message Box -->
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e8f3f9"
+            android:backgroundTint="#E8F3F9"
+            android:backgroundTintMode="src_in"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:lineHeight="28dp"
+            android:padding="15dp"
+            android:text="Congratulations!\n\n Your new limit increase successfully wait 24 hours, your new limit add in your credit card"
+            android:textColor="#F44336"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+</ScrollView>

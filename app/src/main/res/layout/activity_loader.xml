@@ -1,0 +1,43 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceff8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#eceff8"
+        android:paddingTop="60dp">
+
+
+            <ProgressBar
+                android:id="@+id/loadingSpinner"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:indeterminate="true"
+                style="?android:attr/progressBarStyleLarge"
+                android:indeterminateTint="@color/primary1"
+                android:indeterminateTintMode="src_in"/>
+
+        <TextView
+            android:id="@+id/timerMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:padding="15dp"
+            android:text="Please wait 10 Seconds\n Fetching your details..."
+            android:gravity="center"
+            android:textSize="20sp"
+            android:lineHeight="28dp"
+            android:background="#e8f3f9"
+            android:textColor="@color/primary1"
+            android:elevation="2dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTintMode="src_in"
+            android:backgroundTint="#E8F3F9"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

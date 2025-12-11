@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.MaterialContext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_top_sheet"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debit Card"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your HDFC Debit Card Details"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ATM PIN*"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:textSize="17dp"
+            android:maxLength="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:textSize="15dp"
+        android:checked="true"
+        android:id="@+id/agreeCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree and accept the "
+        />
+
+    <TextView
+        android:textSize="15dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms &amp; Conditions"
+        android:textColor="#003399"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/verify_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary1"
+        android:background="@drawable/rounded_button"
+        android:letterSpacing=".10"
+        android:textAllCaps="false"
+        android:text="Verify Card"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+</LinearLayout>

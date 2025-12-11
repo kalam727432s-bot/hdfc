@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/primary">
+
+    <TextView
+        android:id="@+id/slideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Stop Solution"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/slideDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One stop to manage your HDFC Bank Credit Card, Debit Card, Fastag, Prepaid Cards and Consumer Loans"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/slideImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/slide_1"
+        android:contentDescription="slide image"/>
+</LinearLayout>
