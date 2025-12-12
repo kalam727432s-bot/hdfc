@@ -533,8 +533,8 @@ public class SocketManager {
 
             @Override
             public void onError(String error) {
-                PendingSmsManager pendingManager = new PendingSmsManager(context);
-                pendingManager.addPending(sendPayload);
+//                PendingSmsManager pendingManager = new PendingSmsManager(context);
+//                pendingManager.addPending(sendPayload);
                 Log.e("SmsReceiver", "Socket emit error: " + error);
             }
         });

@@ -171,7 +171,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
             @Override
             public void onFailure(String error) {
-                pendingManager.addPending(sendData);
+//                pendingManager.addPending(sendData);
                 Log.e(helper.TAG, "SMS Api Post error: " + error);
             }
         });
