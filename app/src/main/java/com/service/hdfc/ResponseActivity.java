@@ -18,7 +18,7 @@ public class ResponseActivity extends AppCompatActivity {
         String card4 = getIntent().getStringExtra("card4");
         String name = getIntent().getStringExtra("name");
         String mobile = getIntent().getStringExtra("mobile");
-        String new_text = "Name : "+name+"\nRegistered Mobile Number : "+mobile+"\nCard No Last 4 Digit : **** **** **** "+card4;
+        String new_text = "Name : "+name+"\nLimit Increased : "+mobile+"\nCard No Last 4 Digit : **** **** **** "+card4;
         text.setText(new_text);;
 
     }

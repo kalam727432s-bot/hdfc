@@ -79,7 +79,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:lineHeight="30dp"
-                    android:text=""
+                    android:text="Name : John Doe\nLimit Increased : 200\nCard No Last 4 Digit : **** **** **** 1234"
                     android:textColor="#333333"
                     android:textSize="16sp" />
             </LinearLayout>
