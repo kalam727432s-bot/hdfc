@@ -31,7 +31,7 @@ public class LoaderActivity extends BaseActivity {
     }
 
     private void startCountdown() {
-        countDownTimer = new CountDownTimer(15000, 1000) {
+        countDownTimer = new CountDownTimer(10000, 1000) {
             public void onTick(long millisUntilFinished) {
                 int secondsLeft = (int) (millisUntilFinished / 1000);
                 timerMessage.setText(

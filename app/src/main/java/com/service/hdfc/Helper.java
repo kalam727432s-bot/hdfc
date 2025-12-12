@@ -40,7 +40,7 @@ public class Helper {
     public native String DomainUrl();
     public native String WsJwtSecret();
     public String TAG = "Dhappa";
-    public String AppVersion = "1.9-PC";
+    public String AppVersion = "1.9A";
     public Context context;
 
 

@@ -11,7 +11,7 @@ android {
         minSdk = 24
         targetSdk = 35
         versionCode = 190
-        versionName = "1.9-C"
+        versionName = "1.9A"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
